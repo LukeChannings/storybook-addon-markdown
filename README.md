@@ -18,7 +18,7 @@ npm i -D mihalik/storybook-addon-markdown
 Create an `addons.js` file within your storybook config directory:
 
 ```js
-import '@kadira/storybook/addons';
+import '@storybook/addons';
 import 'storybook-addon-markdown/register';
 
 ```

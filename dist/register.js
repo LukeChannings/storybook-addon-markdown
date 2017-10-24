@@ -4,7 +4,7 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _storybookAddons = require('@kadira/storybook-addons');
+var _storybookAddons = require('@storybook/addons');
 
 var _storybookAddons2 = _interopRequireDefault(_storybookAddons);
 

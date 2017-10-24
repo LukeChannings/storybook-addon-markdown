@@ -1,5 +1,5 @@
 import React from 'react';
-import addons from "@kadira/storybook-addons";
+import addons from "@storybook/addons";
 
 export class MarkdownDecorator extends React.Component {
 

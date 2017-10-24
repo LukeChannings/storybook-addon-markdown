@@ -1,6 +1,6 @@
 import React from 'react';
 import marked from 'marked';
-import '!style!css!github-markdown-css/github-markdown.css';
+import '!style-loader!css-loader!github-markdown-css/github-markdown.css';
 
 const styles = {
   base: {

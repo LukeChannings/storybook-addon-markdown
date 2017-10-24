@@ -1,9 +1,9 @@
 import React from 'react';
-import { storiesOf, action } from '@kadira/storybook';
+import { storiesOf, action } from '@storybook/react';
 import markdownDecorator, {addWithMarkdown} from '../src';
 
 import Button from './Button';
-import readme from '!raw!../README.md';
+import readme from '!raw-loader!../README.md';
 
 const inline = `
 # Test markdown

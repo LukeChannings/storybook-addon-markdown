@@ -14,7 +14,7 @@
     "storybook": "start-storybook -p 9010"
   },
   "devDependencies": {
-    "@kadira/storybook": "^2.20.1",
+    "@storybook/react": "^3.2.13",
     "babel-cli": "^6.5.0",
     "babel-core": "^6.5.0",
     "babel-eslint": "^7.0.0",
