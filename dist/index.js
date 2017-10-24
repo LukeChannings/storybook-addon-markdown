@@ -31,9 +31,9 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _storybookAddons = require('@storybook/addons');
+var _addons = require('@storybook/addons');
 
-var _storybookAddons2 = _interopRequireDefault(_storybookAddons);
+var _addons2 = _interopRequireDefault(_addons);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -68,12 +68,12 @@ var MarkdownDecorator = exports.MarkdownDecorator = function (_React$Component) 
 
 exports.default = function (markdown) {
   return function (story) {
-    return _react2.default.createElement(MarkdownDecorator, { story: story, markdown: markdown, channel: _storybookAddons2.default.getChannel() });
+    return _react2.default.createElement(MarkdownDecorator, { story: story, markdown: markdown, channel: _addons2.default.getChannel() });
   };
 };
 
 function addWithMarkdown(name, markdown, story) {
   this.add(name, function () {
-    return _react2.default.createElement(MarkdownDecorator, { story: story, markdown: markdown, channel: _storybookAddons2.default.getChannel() });
+    return _react2.default.createElement(MarkdownDecorator, { story: story, markdown: markdown, channel: _addons2.default.getChannel() });
   });
 }

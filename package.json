@@ -1,6 +1,6 @@
 {
   "name": "storybook-addon-markdown",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A Storybook addon to display a markdown file in a panel.",
   "repository": {
     "type": "git",

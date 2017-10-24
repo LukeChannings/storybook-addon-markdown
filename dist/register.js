@@ -4,9 +4,9 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _storybookAddons = require('@storybook/addons');
+var _addons = require('@storybook/addons');
 
-var _storybookAddons2 = _interopRequireDefault(_storybookAddons);
+var _addons2 = _interopRequireDefault(_addons);
 
 var _MarkdownPanel = require('./MarkdownPanel');
 
@@ -17,9 +17,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var ADDON_ID = 'storybook-addon-markdown';
 var PANEL_ID = ADDON_ID + '/markdown-panel';
 
-_storybookAddons2.default.register(ADDON_ID, function (api) {
-  var channel = _storybookAddons2.default.getChannel();
-  _storybookAddons2.default.addPanel(PANEL_ID, {
+_addons2.default.register(ADDON_ID, function (api) {
+  var channel = _addons2.default.getChannel();
+  _addons2.default.addPanel(PANEL_ID, {
     title: 'Docs',
     render: function render() {
       return _react2.default.createElement(_MarkdownPanel2.default, { channel: channel, api: api });
